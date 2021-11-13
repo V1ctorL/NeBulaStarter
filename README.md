@@ -6,7 +6,7 @@ The name is given due to the name of the IDE designated by the professor, NetBea
 
 This repository contains the starter for NeBula. The interface is shown as follows.
 
-![User Interface](./User Interface.png)
+![User Interface](https://github.com/V1ctorL/NeBulaStarter/blob/main/User%20Interface.png)
 
 There are also a [backend server](https://github.com/V1ctorL/NeBula) and [web client](https://github.com/V1ctorL/NeBulaWebClient).
 

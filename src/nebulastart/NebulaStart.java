@@ -46,15 +46,15 @@ public class NebulaStart extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         
-        Label label1 = new Label(Ping.ping1());
+        Label label1 = new Label(Ping.ping3());
         Label label2 = new Label(Ping.ping2());
-        Label label3 = new Label(Ping.ping3());
+        Label label3 = new Label(Ping.ping1());
         Label label4 = new Label(Ping.ping4());
         Label label5 = new Label(Ping.ping5());
         
-        Hyperlink link1 = new Hyperlink("http://172.20.10.6:8080/NeBulaWebClient", new Button("节点1"));
+        Hyperlink link1 = new Hyperlink("http://172.20.10.3:8080/NeBulaWebClient", new Button("节点1"));
         Hyperlink link2 = new Hyperlink("http://172.20.10.5:8080/NeBulaWebClient", new Button("节点2"));
-        Hyperlink link3 = new Hyperlink("http://172.20.10.3:8080/NeBulaWebClient", new Button("节点3"));
+        Hyperlink link3 = new Hyperlink("http://172.20.10.6:8080/NeBulaWebClient", new Button("节点3"));
         Hyperlink link4 = new Hyperlink("http://172.20.10.7:8080/NeBulaWebClient", new Button("节点4"));
         Hyperlink link5 = new Hyperlink("http://172.20.10.8:8080/NeBulaWebClient", new Button("节点5"));
         
@@ -104,7 +104,7 @@ public class NebulaStart extends Application {
         
         stage.setResizable(false);
         
-        stage.setTitle("NebulaStart");
+        stage.setTitle("Nebula Launcher");
         
         stage.getIcons().add(new Image("/icon/Nebula.png"));
         

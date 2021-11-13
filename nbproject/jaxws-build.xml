@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-Pong1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Pong1"/>
+        <property name="wsdl-Pong1" location="xml-resources/web-service-references/Pong1/wsdl/172.20.10.6_8080/NeBulaWebClient/Pong1.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Pong1" destdir="${build.generated.dir}/jax-wsCache/Pong1" wsdl="${wsdl-Pong1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://172.20.10.6:8080/NeBulaWebClient/Pong1?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Pong1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Pong1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Pong1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Pong1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Pong1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/team/v1ctorl/nebula"/>
+    </target>
+    <target name="wsimport-client-Pong2" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Pong2"/>
+        <property name="wsdl-Pong2" location="xml-resources/web-service-references/Pong2/wsdl/172.20.10.5_8080/NeBulaWebClient/Pong2.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Pong2" destdir="${build.generated.dir}/jax-wsCache/Pong2" wsdl="${wsdl-Pong2}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://172.20.10.5:8080/NeBulaWebClient/Pong2?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Pong2}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Pong2"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Pong2">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Pong2" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Pong2"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/team/v1ctorl/nebula"/>
+    </target>
+    <target name="wsimport-client-Pong3" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Pong3"/>
+        <property name="wsdl-Pong3" location="xml-resources/web-service-references/Pong3/wsdl/172.20.10.3_8080/NeBulaWebClient/Pong3.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Pong3" destdir="${build.generated.dir}/jax-wsCache/Pong3" wsdl="${wsdl-Pong3}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://172.20.10.3:8080/NeBulaWebClient/Pong3?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Pong3}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Pong3"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Pong3">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Pong3" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Pong3"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/team/v1ctorl/nebula"/>
+    </target>
+    <target name="wsimport-client-Pong4" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Pong4"/>
+        <property name="wsdl-Pong4" location="xml-resources/web-service-references/Pong4/wsdl/172.20.10.7_8080/NeBulaWebClient/Pong4.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Pong4" destdir="${build.generated.dir}/jax-wsCache/Pong4" wsdl="${wsdl-Pong4}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://172.20.10.7:8080/NeBulaWebClient/Pong4?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Pong4}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Pong4"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Pong4">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Pong4" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Pong4"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/team/v1ctorl/nebula"/>
+    </target>
+    <target name="wsimport-client-Pong5" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Pong5"/>
+        <property name="wsdl-Pong5" location="xml-resources/web-service-references/Pong5/wsdl/172.20.10.8_8080/NeBulaWebClient/Pong5.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Pong5" destdir="${build.generated.dir}/jax-wsCache/Pong5" wsdl="${wsdl-Pong5}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://172.20.10.8:8080/NeBulaWebClient/Pong5?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Pong5}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Pong5"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Pong5">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Pong5" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Pong5"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/team/v1ctorl/nebula"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-Pong1, wsimport-client-Pong2, wsimport-client-Pong3, wsimport-client-Pong4, wsimport-client-Pong5"/>
+</project>

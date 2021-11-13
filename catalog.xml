@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://172.20.10.5:8080/NeBulaWebClient/Pong?wsdl" uri="xml-resources/web-service-references/Pong_1/wsdl/172.20.10.5_8080/NeBulaWebClient/Pong.wsdl"/>
+    <system systemId="http://172.20.10.5:8080/NeBulaWebClient/Pong?xsd=1" uri="xml-resources/web-service-references/Pong_1/wsdl/172.20.10.5_8080/NeBulaWebClient/Pong.xsd_1.xsd"/>
+    <system systemId="http://172.20.10.6:8080/NeBulaWebClient/Pong?wsdl" uri="xml-resources/web-service-references/Pong/wsdl/172.20.10.6_8080/NeBulaWebClient/Pong.wsdl"/>
+    <system systemId="http://172.20.10.6:8080/NeBulaWebClient/Pong?xsd=1" uri="xml-resources/web-service-references/Pong/wsdl/172.20.10.6_8080/NeBulaWebClient/Pong.xsd_1.xsd"/>
+    <system systemId="http://172.20.10.6:8080/NeBulaWebClient/Pong1?wsdl" uri="xml-resources/web-service-references/Pong1/wsdl/172.20.10.6_8080/NeBulaWebClient/Pong1.wsdl"/>
+    <system systemId="http://172.20.10.6:8080/NeBulaWebClient/Pong1?xsd=1" uri="xml-resources/web-service-references/Pong1/wsdl/172.20.10.6_8080/NeBulaWebClient/Pong1.xsd_1.xsd"/>
+    <system systemId="http://172.20.10.5:8080/NeBulaWebClient/Pong2?wsdl" uri="xml-resources/web-service-references/Pong2/wsdl/172.20.10.5_8080/NeBulaWebClient/Pong2.wsdl"/>
+    <system systemId="http://172.20.10.5:8080/NeBulaWebClient/Pong2?xsd=1" uri="xml-resources/web-service-references/Pong2/wsdl/172.20.10.5_8080/NeBulaWebClient/Pong2.xsd_1.xsd"/>
+    <system systemId="http://172.20.10.3:8080/NeBulaWebClient/Pong3?wsdl" uri="xml-resources/web-service-references/Pong3/wsdl/172.20.10.3_8080/NeBulaWebClient/Pong3.wsdl"/>
+    <system systemId="http://172.20.10.3:8080/NeBulaWebClient/Pong3?xsd=1" uri="xml-resources/web-service-references/Pong3/wsdl/172.20.10.3_8080/NeBulaWebClient/Pong3.xsd_1.xsd"/>
+    <system systemId="http://172.20.10.7:8080/NeBulaWebClient/Pong4?wsdl" uri="xml-resources/web-service-references/Pong4/wsdl/172.20.10.7_8080/NeBulaWebClient/Pong4.wsdl"/>
+    <system systemId="http://172.20.10.7:8080/NeBulaWebClient/Pong4?xsd=1" uri="xml-resources/web-service-references/Pong4/wsdl/172.20.10.7_8080/NeBulaWebClient/Pong4.xsd_1.xsd"/>
+    <system systemId="http://172.20.10.8:8080/NeBulaWebClient/Pong5?wsdl" uri="xml-resources/web-service-references/Pong5/wsdl/172.20.10.8_8080/NeBulaWebClient/Pong5.wsdl"/>
+    <system systemId="http://172.20.10.8:8080/NeBulaWebClient/Pong5?xsd=1" uri="xml-resources/web-service-references/Pong5/wsdl/172.20.10.8_8080/NeBulaWebClient/Pong5.xsd_1.xsd"/>
+</catalog>
